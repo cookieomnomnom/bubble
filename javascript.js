@@ -21,6 +21,8 @@ function resetArray(){
     inputArray.length = "0";
     arrayDiv.innerHTML = '';
     document.getElementById("hiddenButtons").style.display='none';
+    stepI = 0;
+    stepJ = 0;
 }
 
 function stepOfSort(){          
